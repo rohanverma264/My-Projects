@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smartwatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="top-bar">
+        <img id="logo" src="http://pngimg.com/uploads/amazon/amazon_PNG28.png" alt="logo">
+    </div>
+    <div id="whole-body">
+        <div id="left-part">
+            <img id="photo" src="Pics/red watch.png" alt="Smartwatch">
+            <div id="time"></div>
+        </div>
+        <div id="right-part">
+            <h1 id="title">FitBit 19 - The Smartest Watch</h1>
+            <p id="description"> A smartwatch is a digital watch that provides many other<br> features besides timekeeping. A smartphone, a smartwatch <br>has a touchscreen display, which allows you to perform<br> actions by tapping or swiping on the screen. </p>
+            <h3 class ="heading">Select Color</h3>
+            <div id="color">
+                
+                <button id="red" onclick="watchColor(red)"></button>
+                <button id="black" onclick="watchColor(black)"></button>
+                <button id="blue" onclick="watchColor(blue)"></button>
+                <button id="pink" onclick="watchColor(pink)"></button>
+                <button id="purple" onclick="watchColor(purple)"></button>
+            </div>
+            <h3 class="heading">Features</h3>
+            <div id="feature-div">
+                <div class="features"">Time</div>
+                <div class="features">Heart Rate</div>
+            </div>
+            <button id="buy-button">Buy Now</button>
+
+        </div>
+    </div>  
+</body>
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,109 @@
+#logo{
+    height: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    
+}
+#top-bar{
+background-color: rgb(51, 61, 70);
+}
+#left-part{
+    height: 30%;
+    width: 30%;
+    position: relative;
+
+}
+#photo{
+    height: 100%;
+    width: 100%;
+    margin: 20% 0 0 10%;
+    /* margin-top: 20%; */
+    
+}
+#time{
+    position: absolute;
+    top: 55%;
+    left: 59%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2.5vw;
+}
+#whole-body{
+    display: flex; 
+}
+#right-part{
+    margin-top: 5%;
+}
+#description{
+    font-size: 90%;
+}
+#color{
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+    
+}#red{
+    background-color: #ca3d22;
+    width: 100%;
+    margin-right: 5%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+#black{
+    background-color: #23211f;
+    width: 100%;
+    margin-right: 5%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+#pink{
+    background-color: #e9c7be;
+    width: 100%;
+    margin-right: 5%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+#blue{
+    background-color: #565681;
+    width: 100%;
+    margin-right: 5%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+#purple{
+    background-color: #8a5362;
+    width: 100%;
+    margin-right: 5%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+#feature-div{
+    display: flex;
+}
+.features{
+    height: 8%;
+    background-color: rgb(86, 249, 255);
+    margin-right: 20px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 8;
+    cursor: pointer;
+}
+#buy-button{
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(236, 141, 32);
+    outline: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+button:hover{
+    cursor: pointer;
+}
