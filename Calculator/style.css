@@ -1,0 +1,41 @@
+html{
+    background-image: url(https://i.imgur.com/mSPU63U.jpg);
+}
+#calculator{
+    background-color: rgba(92, 64, 90, 0.836);
+    height: 450px;
+    width: 350px;
+    margin: auto;
+    margin-top: 5rem;
+    position: relative;
+    border: 1px solid black;
+    opacity: 1;
+}
+input{
+    width: 99%;
+    border: none;
+    outline: none;
+    height: 130px;
+    margin-top: 2%;
+    font-size: 200%;
+
+}
+#main{
+    /* background-color: chartreuse; */
+    height: 60%;
+    
+    margin-top: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+
+}
+.grid-items{
+    text-align: center;
+    margin: auto;
+    /* border: 1px solid black; */
+    padding: 19.5px 35px;
+    font-size: 35px;
+    
+    
+}
