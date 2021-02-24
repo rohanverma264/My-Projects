@@ -1,3 +1,4 @@
+
 #logo{
     height: 70px;
     display: block;
@@ -35,9 +36,6 @@ background-color: rgb(51, 61, 70);
 }
 #right-part{
     margin-top: 5%;
-}
-#description{
-    font-size: 90%;
 }
 #color{
     display: flex;
@@ -93,7 +91,6 @@ background-color: rgb(51, 61, 70);
     margin-right: 20px;
     border-radius: 5px;
     padding: 5px 10px;
-    font-size: 8;
     cursor: pointer;
 }
 #buy-button{
